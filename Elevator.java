@@ -61,8 +61,6 @@ public class Elevator extends SubsystemBase {
         STOWED(0.0),      // Fully retracted
         INTAKE(2.0),      // Low position for intake
         LOW(12.0),        // Low scoring position
-        MID(24.0),        // Mid scoring position
-        HIGH(42.0);       // High scoring position
 
         public final double heightInches;
 
